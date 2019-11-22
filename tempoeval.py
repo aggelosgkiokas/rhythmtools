@@ -1,5 +1,5 @@
 import numpy
-
+# outdata, targets are numpy vectos of shape (n,) where n the number of excerpts to be evaluated.
 def evaluate_tempo(outdata, targets):
     data_n = outdata.shape[0]
     acc1 = 0
